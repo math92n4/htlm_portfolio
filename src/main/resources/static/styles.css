@@ -1,0 +1,75 @@
+body {
+    font-family: "lucida grande",Tahoma,Verdana,Arial,sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.topheader {
+    background-color: #4267B2;
+    color: white;
+    min-height: 70px;
+    line-height: 70px;
+    padding-left: 2%;
+    margin-bottom: 10px;
+}
+
+.mainheader {
+    width: 100%;
+}
+
+.profilepicture {
+    width: 20%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nameHeader {
+    font-size: 25px;
+    line-height: 250px;
+    font-weight: bold;
+}
+
+.main-div {
+    width: 100%;
+    min-height: 600px;
+    margin-bottom: 30px;
+}
+
+.sidebar-div {
+    width: 25%;
+    min-height: 400px;
+    background-color: lightgrey;
+    float: left;
+    line-height: 100px;
+}
+
+.bodyarea-div {
+    width: 65%;
+    min-height: 600px;
+    background-color: lightgray;
+    float: right;
+    text-align: center;
+}
+
+.footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
